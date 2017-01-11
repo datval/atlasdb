@@ -51,6 +51,10 @@ develop
          - Allow tables declared with SweepStrategy.THOROUGH to be migrated.
            (`Pull Request <https://github.com/palantir/atlasdb/pull/1410>`__)
 
+    *    - |fixed|
+         - Fixed an issue where Postgres KVS mishandled tablenames of >63 characters.
+           (`Pull Request <https://github.com/palantir/atlasdb/pull/1441>`__)
+
 .. <<<<------------------------------------------------------------------------------------------------------------->>>>
 
 =======
